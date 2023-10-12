@@ -28,13 +28,13 @@ function PageNav() {
           <NavLink to="/appliances-school/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/appliances-school//shop">Shop</NavLink>
+          <NavLink to="/appliances-school/shop">Shop</NavLink>
         </li>
         <li>
-          <NavLink to="/appliances-school//about">About</NavLink>
+          <NavLink to="/appliances-school/about">About</NavLink>
         </li>
         <li>
-          <NavLink to="/appliances-school//contact">Contact</NavLink>
+          <NavLink to="/appliances-school/contact">Contact</NavLink>
         </li>
       </ul>
       <div className="icons pr-[20px] md:pr-[50px] space-x-6 md:space-x-12 xl:space-x-16">
