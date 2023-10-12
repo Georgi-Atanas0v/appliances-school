@@ -10,12 +10,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/shop" element={<Shop />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/userLogIn" element={<UsersLogging />} />
+        <Route path="/appliances-school/" element={<Homepage />} />
+        <Route path="/appliances-school/about" element={<About />} />
+        <Route path="/appliances-school/contact" element={<Contact />} />
+        <Route path="/appliances-school/shop" element={<Shop />} />
+        <Route path="/appliances-school/login" element={<Login />} />
+        <Route path="/appliances-school/userLogIn" element={<UsersLogging />} />
         <Route path="/*" element={<h1>ERROR 404 GO BACK</h1>} />
       </Routes>
     </BrowserRouter>
