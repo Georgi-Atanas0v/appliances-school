@@ -1,0 +1,39 @@
+.user-profile {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-image: url("your-profile-picture.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.personal-info,
+.contact-info,
+about-me,
+interests,
+work-education {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}

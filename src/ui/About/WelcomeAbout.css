@@ -1,0 +1,49 @@
+.welcome__about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background-color: #e0dfdf;
+  /* width: 100vw; */
+  font-family: "Young Serif", serif;
+}
+
+.grid__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid__container img {
+  height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  opacity: 1;
+  filter: brightness(90%);
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.heading {
+  font-family: "Dela Gothic One", sans-serif;
+}
+
+@media (max-width: 640px) {
+  .grid__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .grid__container img {
+    height: 85%;
+    max-width: 85%;
+  }
+  .content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+}

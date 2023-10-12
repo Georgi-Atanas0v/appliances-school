@@ -1,0 +1,14 @@
+#parent-div {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  font-family: "Autour One", cursive;
+  width: 100vw;
+}
+
+#parent-div h1,
+h2 {
+  font-family: "Young Serif", serif;
+  letter-spacing: 2.5px;
+}

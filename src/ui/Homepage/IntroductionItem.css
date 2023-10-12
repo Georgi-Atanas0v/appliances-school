@@ -1,0 +1,13 @@
+.item-property {
+  /* display: flex; */
+  font-family: "Roboto Condensed", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+@media (max-width: 917px) {
+  .parent-content {
+    width: 40vw;
+  }
+}

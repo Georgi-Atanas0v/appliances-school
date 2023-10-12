@@ -1,0 +1,30 @@
+.layout__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c9c9c9;
+}
+
+.logos__container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.logos__container img {
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  mix-blend-mode: color-burn;
+  width: 200px;
+}
+
+@media (max-width: 917px) {
+  .logos__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .logos__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

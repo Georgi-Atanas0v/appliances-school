@@ -1,0 +1,11 @@
+.logo h1,
+h2 {
+  color: #7d7c7c;
+  font: bold;
+}
+
+@media (max-width: 300px) {
+  .logo {
+    margin-left: auto;
+  }
+}
