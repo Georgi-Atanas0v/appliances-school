@@ -10,7 +10,7 @@ function Profile() {
 
   function handleClick() {
     dispatch(logOff());
-    navigate("/");
+    navigate("/appliances-school/");
   }
   return (
     <div className="user-profile">

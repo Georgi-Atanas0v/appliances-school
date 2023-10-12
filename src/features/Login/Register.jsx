@@ -24,7 +24,7 @@ function Register() {
       phoneNumber,
     };
     dispatch(createUser(newUser));
-    navigate("/");
+    navigate("/appliances-school/");
     setUsername("");
     setEmail("");
     setPassword("");

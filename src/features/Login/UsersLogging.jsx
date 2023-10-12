@@ -20,7 +20,7 @@ function UsersLogging() {
 
     if (emailState === email && passwordState === password) {
       dispatch(logInUser());
-      navigate("/");
+      navigate("/appliances-school/");
     } else setError("wrong credentials");
   }
 
