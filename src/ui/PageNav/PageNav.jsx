@@ -38,14 +38,14 @@ function PageNav() {
         </li>
       </ul>
       <div className="icons pr-[20px] md:pr-[50px] space-x-6 md:space-x-12 xl:space-x-16">
-        <NavLink to="/appliances-school/login">
+        <NavLink to="login">
           <i
             className="fa fa-user text-[19px] sm:text-[25px] md:text-[40px]"
             id="icon"
           ></i>
         </NavLink>
         <i className="fa fa-truck text-[19px] sm:text-[25px] md:text-[40px]"></i>
-        <NavLink to="/appliances-school/contact">
+        <NavLink to="contact">
           <i className="fa fa-phone text-[19px] sm:text-[25px] md:text-[40px]"></i>
         </NavLink>
       </div>
